@@ -1,4 +1,6 @@
-# Record for Portfolio Article 1: Get and Verify an Hourly Weather Forecast with Postman
+# Portfolio Record for Article 1 
+
+**Article title:** Get and Verify an Hourly Weather Forecast with Postman
 
 **Portfolio role:** Teach
 
@@ -29,7 +31,8 @@ Construct → inspect → verify → diagnose → fix → verify again
 
 ## Sources
 
-Open-Meteo Forecast API; Postman request-parameter documentation.
+- Open-Meteo Forecast API.
+- Postman request-parameter documentation.
 
 ## Article
 
