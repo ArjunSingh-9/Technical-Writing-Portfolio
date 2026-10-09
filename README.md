@@ -17,12 +17,13 @@ This repository contains four selected technical-writing samples. Together, they
 
 **GitHub Pages:** https://arjunsingh-9.github.io/Technical-Writing-Portfolio/
 
-The repository root is also the GitHub Pages source.
+The repository is the canonical source for the portfolio site.
 
 ## About
 
-I’m a Computer Science graduate with professional experience in search quality evaluation, AI evaluation, research, and evidence-based information review. My technical-writing work focuses on making APIs, developer workflows, technical concepts, and troubleshooting processes easier to understand and use.
+I’m a Computer Science graduate with professional experience in search quality evaluation, AI evaluation, research, and evidence-based information review. 
 
+My technical-writing work focuses on making APIs, developer workflows, technical concepts, and troubleshooting processes easier to understand and use.
 My approach combines technical research, hands-on verification, structured reasoning, and clear documentation.
 
 ## Secondary Professional Focus
