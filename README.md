@@ -8,10 +8,10 @@ This repository contains four selected technical-writing samples. Together, they
 
 | Role | Article | Demonstrates |
 | --- | --- | --- |
-| **Teach** | [Get and Verify an Hourly Weather Forecast with Postman](articles/teach/get-and-verify-hourly-weather-forecast-with-postman.md) | Instructional API tutorial and hands-on verification |
-| **Document** | [How to Build a Simple Issue-Tracking Report with the GitHub REST API](articles/document/github-rest-api-issue-tracking-report.md) | Developer workflow documentation and API data interpretation |
-| **Explain** | [How an HTTP Request Travels—Follow One Exchange from Client to Server and Back](articles/explain/how-an-http-request-travels.md) | Conceptual technical explanation and mental-model building |
-| **Troubleshoot** | [Why Did My API Request Fail? A Diagnostic Workflow for 400, 401, 403, and 404 Responses](articles/troubleshoot/why-did-my-api-request-fail.md) | Evidence-based API troubleshooting and diagnostic workflow |
+| **Teach** | [Get and Verify an Hourly Weather Forecast with Postman](articles/01-get-and-verify-hourly-weather-forecast-with-postman/Article-01.md) | Instructional API tutorial and hands-on verification |
+| **Document** | [How to Build a Simple Issue-Tracking Report with the GitHub REST API](articles/02-github-rest-api-issue-tracking-report/Article-02.md) | Developer workflow documentation and API data interpretation |
+| **Explain** | [How an HTTP Request Travels—Follow One Exchange from Client to Server and Back](articles/03-how-an-http-request-travels/Article-03.md) | Conceptual technical explanation and mental-model building |
+| **Troubleshoot** | [Why Did My API Request Fail? A Diagnostic Workflow for 400, 401, 403, and 404 Responses](articles/04-why-did-my-api-request-fail/Article-04.md) | Evidence-based API troubleshooting and diagnostic workflow |
 
 ## Portfolio Site
 
