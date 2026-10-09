@@ -36,7 +36,7 @@ Construct → inspect → verify → diagnose → fix → verify again
 
 ## Article
 
-Read the full article here: [Article 1: Get and Verify an Hourly Weather Forecast with Postman](https://github.com/ArjunSingh-9/Technical-Writing-Portfolio/blob/main/articles/01-get-and-verify-hourly-weather-forecast-with-postman/Article-01.md)
+Read the full article here: [Article 1: Get and Verify an Hourly Weather Forecast with Postman](Article-01.md)
 
 ## Assets
 
