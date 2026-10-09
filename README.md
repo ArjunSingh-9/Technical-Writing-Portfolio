@@ -26,7 +26,7 @@ The repository is the canonical source for the portfolio site.
 My technical-writing work focuses on making APIs, developer workflows, technical concepts, and troubleshooting processes easier to understand and use.
 My approach combines **technical research, hands-on verification, structured reasoning,** and **clear documentation.**
 
-## Secondary Professional Focus
+### Secondary Professional Focus
 
 - AI Evaluation
 - Research & Verification
