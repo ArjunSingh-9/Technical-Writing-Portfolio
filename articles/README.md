@@ -4,9 +4,9 @@ This directory contains four selected technical-writing samples demonstrating fo
 
 | Role | Article |
 | --- | --- |
-| **Teach** | [Get and Verify an Hourly Weather Forecast with Postman](articles/01-get-and-verify-hourly-weather-forecast-with-postman/Article-01.md) |
-| **Document** | [How to Build a Simple Issue-Tracking Report with the GitHub REST API](articles/02-github-rest-api-issue-tracking-report/Article-02.md) |
-| **Explain** | [How an HTTP Request Travels—Follow One Exchange from Client to Server and Back](articles/03-how-an-http-request-travels/Article-03.md) |
-| **Troubleshoot** | [Why Did My API Request Fail? A Diagnostic Workflow for 400, 401, 403, and 404 Responses](articles/04-why-did-my-api-request-fail/Article-04.md) |
+| **Teach** | [Get and Verify an Hourly Weather Forecast with Postman](01-get-and-verify-hourly-weather-forecast-with-postman/Article-01.md) |
+| **Document** | [How to Build a Simple Issue-Tracking Report with the GitHub REST API](02-github-rest-api-issue-tracking-report/Article-02.md) |
+| **Explain** | [How an HTTP Request Travels—Follow One Exchange from Client to Server and Back](03-how-an-http-request-travels/Article-03.md) |
+| **Troubleshoot** | [Why Did My API Request Fail? A Diagnostic Workflow for 400, 401, 403, and 404 Responses](04-why-did-my-api-request-fail/Article-04.md) |
 
 Each article folder contains the published article, its compact public portfolio record, and supporting assets.
