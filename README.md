@@ -1,6 +1,6 @@
 # Technical Writing Portfolio
 
-**Arjun — Technical Writer | API Documentation • Developer Content • Troubleshooting**
+### Arjun — Technical Writer | API Documentation • Developer Content • Troubleshooting
 
 This repository contains four selected technical-writing samples. Together, they demonstrate four different writing roles:
 
