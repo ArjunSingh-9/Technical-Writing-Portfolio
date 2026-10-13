@@ -1,0 +1,13 @@
+{
+    "error": "insufficient_scope",
+    "message": "This API key has read-only permissions.",
+    "hint": "Use a manage key or a read_write key for write operations.",
+    "next_steps": [
+        "Check your key permissions at app.reqres.in/api-keys",
+        "read: Can only read data",
+        "write: Can read and write data",
+        "manage: Full access including delete operations"
+    ],
+    "docs_url": "https://app.reqres.in/docs#api-key-permissions",
+    ...
+}
