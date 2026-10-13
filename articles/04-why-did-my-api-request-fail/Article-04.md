@@ -178,6 +178,8 @@ The ReqRes API returns a `400 Bad Request` response with this JSON body:
 }
 ```
 
+![Registration request without the password field returning 400 Bad Request](assets/ReqRes_Experiment2B_Response.png)
+
 The status code indicates that the request was treated as a client error, but it does not identify the specific cause by itself. The response body provides the additional clue.
 
 The evidence can now be connected as follows:
@@ -247,7 +249,11 @@ The ReqRes API returns a `401 Unauthorized` response with this JSON body:
 }
 ```
 
+![Request without the required x-api-key header returning 401 Unauthorized](assets/ReqRes_Experiment3A_Response.png)
+
 The status code indicates that the request lacks valid authentication for this endpoint. The response body provides specific evidence: the `x-api-key` header is required.
+
+[Inspect the full captured 401 response, including its diagnostic hints](assets/ReqRes_Experiment3A_Output.json)
 
 The evidence can now be connected as follows:
 
@@ -328,7 +334,13 @@ The ReqRes API returns a `403 Forbidden` response with this JSON body:
 }
 ```
 
-The response indicates that the supplied credential does not have sufficient permission for this write operation. The response body provides the specific evidence: the API key has read-only permissions.
+The response indicates that the supplied credential does not have sufficient permission for this write operation. 
+
+![Write request using a read-only public key returning 403 Forbidden](assets/ReqRes_Experiment4A_Response.png)
+
+The response body provides the specific evidence: the API key has read-only permissions.
+
+[Inspect the captured 403 response excerpt, including its diagnostic hints](assets/ReqRes_Experiment4A_Output_Excerpt.json)
 
 The important distinction from the previous `401` case is reflected in the following questions:
 
@@ -362,6 +374,8 @@ X-Reqres-Env: prod
 
 Send the POST request again. It returns to the previously successful state with the newly created product record.
 
+[View selected fields from the successful product-creation response](assets/ReqRes_Experiment4B_Output_Sanitized.json)
+
 **Conceptually:** When a `403 Forbidden` response occurs, inspect the request’s authentication and permission context. Compare it with a known-good request. Use the response body to determine why the API refused the operation.
 
 ## Diagnose a 404 Not Found
@@ -392,6 +406,8 @@ The request returns a `200 OK` response containing the requested user:
 }
 ```
 
+![Known-good request for user ID 2 returning 200 OK](assets/ReqRes_Experiment5_Response.png)
+
 The response confirms that the resource with ID `2` exists.
 
 ### Create the controlled failure
@@ -407,6 +423,8 @@ GET https://reqres.in/api/users/999999
 The rest of the request stays the same.
 
 The ReqRes API returns a `404 Not Found` response with an empty body.
+
+![Request for user ID 999999 returning 404 Not Found](assets/ReqRes_Experiment5A_Response.png)
 
 *A response body does not always provide a useful explanation.* In this case, the controlled change and known-good baseline provide the stronger evidence instead.
 
