@@ -51,6 +51,8 @@ We sent this request during live testing and received a readable response. The c
 < HTTP/1.1 200 OK
 ```
 
+[View the complete sanitized curl trace](assets/successful-http1_1-curl-trace.txt)
+
 After defining the starting point, let’s begin at the destination.
 
 ## Start with the Destination
