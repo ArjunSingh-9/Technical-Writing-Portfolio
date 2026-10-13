@@ -113,11 +113,15 @@ The latest version of the request, including its Params table, should contain th
 - `direction=desc`
 - `per_page=10`
 
+![Postman request returning ten open GitHub issues and pull requests sorted by most recent update](assets/Git_Experiment3_Response.png)
+
 **Note:** The response can still contain both issues and pull requests. We’ll classify those records in the next stages of the workflow.
 
 ## Read the Returned JSON
 
 The latest request returns a small, filtered set of records in JSON format. The next step is to inspect the JSON structure before extracting useful values.
+
+[Inspect the complete captured GitHub Issues API response (JSON)](assets/Git_Experiment3_Output.json)
 
 ### Examining a single record
 
