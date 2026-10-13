@@ -96,6 +96,8 @@ Finally, limit the hourly forecast to 12 timesteps by adding another parameter t
 
 **Note:** The parameter `forecast_hours=12` limits the hourly forecast returned by the API to 12 timesteps. The first timestep depends on when the request is made.
 
+![Successful 12-hour Open-Meteo forecast request showing the query parameters and returned hourly data](assets/OM_Experiment5_Response.png)
+
 ## 6. Read the JSON Response
 
 Open-Meteo’s response is formatted as JSON (JavaScript Object Notation). JSON organizes the response data into named fields and objects.
@@ -138,7 +140,8 @@ In the response pane, check these five points:
     ...
     time[11] ↔ temperature_2m[11]
     ```
-    
+
+[Inspect the complete 12-hour forecast response (JSON)](assets/OM_Experiment7_Output.json)
 
 ## 8. Break the Request on Purpose
 
@@ -151,6 +154,8 @@ The request now works as expected. To practice troubleshooting, deliberately int
 5. Observe the HTTP response in the **Response** pane. You will see that:
     - The response status changes from `200 OK` to `400 Bad Request`.
     - The response also contains an error message explaining that the requested hourly variable is invalid.
+
+![Deliberately misspelled temperature_2m parameter producing a 400 Bad Request response](assets/OM_Experiment6_Response.png)
 
 ## 9. Diagnose the Error
 
@@ -190,6 +195,8 @@ After diagnosing the error, fix it:
     - The two arrays correspond position by position
 
 **Note:** Fixing the request is **not** the final step. Re-send the request and verify the response using the same checks as before.
+
+![Corrected Open-Meteo request returning a successful 200 OK response](assets/OM_Experiment7_Response.png)
 
 ## What You Learned
 
