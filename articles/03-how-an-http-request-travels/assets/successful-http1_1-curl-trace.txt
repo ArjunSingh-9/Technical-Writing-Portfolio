@@ -1,7 +1,10 @@
-PS C:\Users\[REDACTED]> curl.exe -v --http1.1 "https://httpbin.org/get?item=42"
+NOTE: The client IP and trace ID were redacted. Since changing those values also changes the displayed response-body length, the recorded Content-Length is from the original response.
+---------------------------------------------------------------
+
+PS C:\Users\[REDACTED_USERNAME]> curl.exe -v --http1.1 "https://httpbin.org/get?item=42"
 * Host httpbin.org:443 was resolved.
 * IPv6: (none)
-* IPv4: [REDACTED]
+* IPv4: [REDACTED_CLIENT_IP]
 *   Trying 98.88.64.13:443...
 * Connected to httpbin.org (98.88.64.13) port 443
 * schannel: disabled automatic use of client certificate
@@ -31,9 +34,9 @@ PS C:\Users\[REDACTED]> curl.exe -v --http1.1 "https://httpbin.org/get?item=42"
     "Accept": "*/*",
     "Host": "httpbin.org",
     "User-Agent": "curl/8.9.1",
-    "X-Amzn-Trace-Id": [REDACTED]
+    "X-Amzn-Trace-Id": [REDACTED_TRACE_ID]
   },
-  "origin": [REDACTED],
+  "origin": [REDACTED_REQUEST_ORIGIN_IP],
   "url": "https://httpbin.org/get?item=42"
 }
 * Connection #0 to host httpbin.org left intact
