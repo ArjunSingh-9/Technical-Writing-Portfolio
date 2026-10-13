@@ -1,0 +1,10 @@
+{
+    "data": {
+        "data": {
+            "name": "Restoration Test Product",
+            "price": 11.99,
+            "category": "Testing",
+            "in_stock": true
+        }
+    }
+}
