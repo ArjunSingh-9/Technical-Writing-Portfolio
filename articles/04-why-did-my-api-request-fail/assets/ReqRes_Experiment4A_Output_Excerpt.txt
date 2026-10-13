@@ -8,6 +8,5 @@
         "write: Can read and write data",
         "manage: Full access including delete operations"
     ],
-    "docs_url": "https://app.reqres.in/docs#api-key-permissions",
-    ...
+    "docs_url": "https://app.reqres.in/docs#api-key-permissions"
 }
