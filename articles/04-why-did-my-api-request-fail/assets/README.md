@@ -15,8 +15,3 @@ These assets document the controlled failures and recovery checks used in the 40
 - [ReqRes_Experiment3A_Output.json](ReqRes_Experiment3A_Output.json) — Captured 401 response with its diagnostic hints and documentation links.
 - [ReqRes_Experiment4A_Output_Excerpt.json](ReqRes_Experiment4A_Output_Excerpt.json) — Selected 403 response fields relevant to the read-only permission diagnosis.
 - [ReqRes_Experiment4B_Output_Sanitized.json](ReqRes_Experiment4B_Output_Sanitized.json) — Selected fields from the successful product-creation response after correcting the permissions.
-
-## Supplementary baseline capture
-
-- [ReqRes_Experiment5_Output.json](ReqRes_Experiment5_Output.json) — Full JSON-formatted response for the known-good user ID `2` request, including provider metadata.
-The main article uses selected baseline fields inline and includes the corresponding screenshot, so the supplementary baseline capture is not directly linked from the article.
