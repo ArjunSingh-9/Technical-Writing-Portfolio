@@ -15,25 +15,25 @@ My approach combines **technical research, hands-on verification, structured rea
 
 ### Teach
 
-[Get and Verify an Hourly Weather Forecast with Postman](articles/01-get-and-verify-hourly-weather-forecast-with-postman/Article-01.md)
+[Get and Verify an Hourly Weather Forecast with Postman](articles/01-get-and-verify-hourly-weather-forecast-with-postman/Article-01.html)
 
 An instructional API tutorial demonstrating an executable workflow, response verification, deliberate failure, and recovery.
 
 ### Document
 
-[How to Build a Simple Issue-Tracking Report with the GitHub REST API](articles/02-github-rest-api-issue-tracking-report/Article-02.md)
+[How to Build a Simple Issue-Tracking Report with the GitHub REST API](articles/02-github-rest-api-issue-tracking-report/Article-02.html)
 
 A practical workflow showing how to retrieve, filter, classify, extract, and verify API data.
 
 ### Explain
 
-[How an HTTP Request Travels—Follow One Exchange from Client to Server and Back](articles/03-how-an-http-request-travels/Article-03.md)
+[How an HTTP Request Travels—Follow One Exchange from Client to Server and Back](articles/03-how-an-http-request-travels/Article-03.html)
 
 A conceptual explainer that follows one concrete HTTPS exchange and separates the roles of URL, DNS, transport, TLS, and HTTP.
 
 ### Troubleshoot
 
-[Why Did My API Request Fail? A Diagnostic Workflow for 400, 401, 403, and 404 Responses](articles/04-why-did-my-api-request-fail/Article-04.md)
+[Why Did My API Request Fail? A Diagnostic Workflow for 400, 401, 403, and 404 Responses](articles/04-why-did-my-api-request-fail/Article-04.html)
 
 An evidence-based diagnostic workflow for investigating common 4xx API failures.
 
