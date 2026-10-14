@@ -1,9 +1,9 @@
 ---
 layout: default
-title: "How an HTTP Request Travels: Follow One Exchange from Client to Server and Back"
+title: "How an HTTP Request Travels—Follow One Exchange from Client to Server and Back"
 ---
 
-# How an HTTP Request Travels: Follow One Exchange from Client to Server and Back
+# How an HTTP Request Travels—Follow One Exchange from Client to Server and Back
 
 ## Introduction
 
