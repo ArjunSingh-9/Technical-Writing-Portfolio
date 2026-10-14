@@ -17,7 +17,7 @@ My approach combines **technical research, hands-on verification, structured rea
 
 [Get and Verify an Hourly Weather Forecast with Postman](articles/01-get-and-verify-hourly-weather-forecast-with-postman/Article-01.html)
 
-An beginner-friendly API tutorial demonstrating an executable API request-response workflow consisting of: a successful request, response verification, deliberate failure, and recovery.
+A beginner-friendly API tutorial that walks through a request-response workflow: sending a successful API request, verifying the response, introducing a deliberate failure, and recovering.
 
 ### Document
 
@@ -35,7 +35,7 @@ A conceptual explainer that follows one concrete HTTPS exchange and builds a men
 
 [Why Did My API Request Fail? A Diagnostic Workflow for 400, 401, 403, and 404 Responses](articles/04-why-did-my-api-request-fail/Article-04.html)
 
-An evidence-based diagnostic workflow consisting of: controlled failures, diagnostic evidence, targeted corrections, and verification—for investigating the four common 4xx API failures.
+An evidence-based guide to diagnosing four common API status codes—400, 401, 403, and 404—through controlled failures, response evidence, targeted corrections, and verification.
 
 ## About
 
