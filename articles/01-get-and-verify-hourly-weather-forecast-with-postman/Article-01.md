@@ -141,8 +141,6 @@ In the response pane, check these five points:
     time[11] ↔ temperature_2m[11]
     ```
 
-[Inspect the complete 12-hour forecast response (JSON)](assets/OM_Experiment7_Output.json)
-
 ## 8. Break the Request on Purpose
 
 The request now works as expected. To practice troubleshooting, deliberately introduce a known error and observe how the API responds:
@@ -194,9 +192,11 @@ After diagnosing the error, fix it:
     - The `temperature_2m` array contains 12 temperature values
     - The two arrays correspond position by position
 
+![Corrected Open-Meteo request returning a successful 200 OK response](assets/OM_Experiment7_Response.png)
+
 **Note:** Fixing the request is **not** the final step. Re-send the request and verify the response using the same checks as before.
 
-![Corrected Open-Meteo request returning a successful 200 OK response](assets/OM_Experiment7_Response.png)
+[Inspect the complete 12-hour forecast response (JSON)](assets/OM_Experiment7_Output.json)
 
 ## What You Learned
 
