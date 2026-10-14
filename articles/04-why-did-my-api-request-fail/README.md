@@ -40,6 +40,6 @@ Read the full article here: [Article 4: Why Did My API Request Fail? A Diagnosti
 
 ## Assets
 
-Publication-ready screenshots, diagrams, and supporting output files for this article are present in the `assets/` folder.
+See the [`assets/README.md`](assets/README.md) file for an inventory of the article's supporting evidence and output files.
 
 **Note:** The examples reflect the behavior observed during the verification runs; API behavior and documentation can change over time.
