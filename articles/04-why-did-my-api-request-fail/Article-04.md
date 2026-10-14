@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Why Did My API Request Fail? A Diagnostic Workflow for 400, 401, 403, and 404 Responses"
+---
+
 # Why Did My API Request Fail? A Diagnostic Workflow for 400, 401, 403, and 404 Responses
 
 ## An Error Code Is a Starting Point
