@@ -1,4 +1,4 @@
-NOTE: The client IP and trace ID were redacted. Since changing those values also changes the displayed response-body length, the recorded Content-Length is from the original response.
+NOTE: The local username, client IP and trace ID were redacted. Since changing those values also changes the displayed response-body length, the recorded Content-Length is from the original response.
 ---------------------------------------------------------------
 
 PS C:\Users\[REDACTED_USERNAME]> curl.exe -v --http1.1 "https://httpbin.org/get?item=42"
