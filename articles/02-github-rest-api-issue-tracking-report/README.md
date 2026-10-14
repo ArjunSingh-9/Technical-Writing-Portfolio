@@ -38,6 +38,6 @@ Read the full article here: [Article 2: How to Build a Simple Issue-Tracking Rep
 
 ## Assets
 
-Publication-ready screenshots, diagrams, and supporting output files for this article are present in the `assets/` folder.
+See the [`assets/README.md`](assets/README.md) file for an inventory of the article's supporting evidence and output files.
 
 **Note:** The report reflects the repository data observed during testing; issue numbers, titles, labels, and timestamps can change after publication.
