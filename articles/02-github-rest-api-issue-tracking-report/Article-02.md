@@ -1,3 +1,8 @@
+---
+layout: default
+title: "How to Build a Simple Issue-Tracking Report with the GitHub REST API"
+---
+
 # How to Build a Simple Issue-Tracking Report with the GitHub REST API
 
 ## Introduction
