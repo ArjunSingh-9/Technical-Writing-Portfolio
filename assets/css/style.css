@@ -1,0 +1,25 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.site-title {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-title:hover {
+  text-decoration: underline;
+}
+
+header .sidebar-attribution {
+  margin: 24px 0 0;
+  color: #fff;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+header .sidebar-attribution a {
+  color: #fff;
+  text-decoration: underline;
+}
