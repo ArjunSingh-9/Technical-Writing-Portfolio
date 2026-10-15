@@ -18,12 +18,12 @@ body {
 }
 
 header {
-  margin-top: 0;
+  margin-top: 5px;
 }
 
 /* Align the main column's first heading with the sidebar */
 section > h1:first-child {
-  margin-top: 0;
+  margin-top: 5px;
 }
 
 /* Hosted-on attribution */
@@ -49,6 +49,7 @@ header p.maintained-by {
 /* Keep the entire sidebar accessible on short desktop screens */
 @media screen and (min-width: 961px) {
   header {
+    width: 260px;
     max-height: calc(100vh - 20px);
     overflow-y: auto;
     box-sizing: border-box;
