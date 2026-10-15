@@ -51,11 +51,11 @@ header p.maintained-by {
   header {
     width: 280px;
     padding: 20px 20px 16px 28px;
-    margin-top: 5px;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 5px;
+    transform: none;
+    margin-top: 0;
     max-height: none;
-    overflow-y: visible;
+    overflow: visible;
     box-sizing: border-box;
   }
 
