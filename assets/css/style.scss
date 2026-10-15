@@ -54,8 +54,9 @@ header p.maintained-by {
     top: 5px;
     transform: none;
     margin-top: 0;
+    height: calc(100vh - 10px);
     max-height: none;
-    overflow: visible;
+    overflow-y: auto;
     box-sizing: border-box;
   }
 
