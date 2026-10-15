@@ -1,6 +1,6 @@
 title: "Arjun — Technical Writing Portfolio"
 description: "Technical writing portfolio featuring API documentation, developer content, technical explanations, and troubleshooting."
-theme: jekyll-theme-midnight
+theme: jekyll-theme-dinky
 url: "https://arjunsingh-9.github.io"
 baseurl: "/Technical-Writing-Portfolio"
 show_downloads: false
