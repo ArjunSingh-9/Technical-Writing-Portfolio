@@ -12,14 +12,32 @@
   text-decoration: underline;
 }
 
+body {
+  padding-top: 0;
+}
+
+header {
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 10px;
+}
+
 header .sidebar-attribution {
-  margin: 24px 0 0;
-  color: #fff;
+  font-style: italic;
   font-size: 11px;
   line-height: 1.5;
+  margin-top: 18px;
+  color: #fff;
 }
 
 header .sidebar-attribution a {
   color: #fff;
   text-decoration: underline;
+}
+
+header p.maintained-by {
+  font-size: 14px;
+  line-height: 1.5;
 }
