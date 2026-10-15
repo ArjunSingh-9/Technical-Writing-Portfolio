@@ -1,3 +1,4 @@
+
 ---
 ---
 
@@ -12,6 +13,7 @@
   text-decoration: underline;
 }
 
+/* Remove excess top spacing */
 body {
   padding-top: 0;
 }
@@ -20,10 +22,12 @@ header {
   margin-top: 10px;
 }
 
-footer {
+/* Align the main column's first heading with the sidebar */
+section > h1:first-child {
   margin-top: 10px;
 }
 
+/* Hosted-on attribution */
 header .sidebar-attribution {
   font-style: italic;
   font-size: 11px;
@@ -37,7 +41,17 @@ header .sidebar-attribution a {
   text-decoration: underline;
 }
 
+/* Make only the maintained-by paragraph smaller */
 header p.maintained-by {
   font-size: 14px;
   line-height: 1.5;
+}
+
+/* Keep the entire sidebar accessible on short desktop screens */
+@media screen and (min-width: 961px) {
+  header {
+    max-height: calc(100vh - 20px);
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
 }
