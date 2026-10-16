@@ -101,7 +101,7 @@ Finally, limit the hourly forecast to 12 timesteps by adding another parameter t
 
 **Note:** The parameter `forecast_hours=12` limits the hourly forecast returned by the API to 12 timesteps. The first timestep depends on when the request is made.
 
-![Successful 12-hour Open-Meteo forecast request showing the query parameters and returned hourly data](assets/OM_Experiment5_Response.png)
+[![Successful 12-hour Open-Meteo forecast request showing the query parameters and returned hourly data](assets/OM_Experiment5_Response.png)](assets/OM_Experiment5_Response.png)
 
 ## 6. Read the JSON Response
 
@@ -158,7 +158,7 @@ The request now works as expected. To practice troubleshooting, deliberately int
     - The response status changes from `200 OK` to `400 Bad Request`.
     - The response also contains an error message explaining that the requested hourly variable is invalid.
 
-![Deliberately misspelled temperature_2m parameter producing a 400 Bad Request response](assets/OM_Experiment6_Response.png)
+[![Deliberately misspelled temperature_2m parameter producing a 400 Bad Request response](assets/OM_Experiment6_Response.png)](assets/OM_Experiment6_Response.png)
 
 ## 9. Diagnose the Error
 
@@ -197,7 +197,7 @@ After diagnosing the error, fix it:
     - The `temperature_2m` array contains 12 temperature values
     - The two arrays correspond position by position
 
-![Corrected Open-Meteo request returning a successful 200 OK response](assets/OM_Experiment7_Response.png)
+[![Corrected Open-Meteo request returning a successful 200 OK response](assets/OM_Experiment7_Response.png)](assets/OM_Experiment7_Response.png)
 
 **Note:** Fixing the request is **not** the final step. Re-send the request and verify the response using the same checks as before.
 
@@ -242,5 +242,5 @@ Next, you can:
 
 ## References
 
-- Open-Meteo Forecast API documentation: https://open-meteo.com/en/docs
-- Postman request parameters documentation: https://learning.postman.com/docs/use/send-requests/create-requests/parameters
+- Open-Meteo Forecast API documentation: [https://open-meteo.com/en/docs](https://open-meteo.com/en/docs)
+- Postman request parameters documentation: [https://learning.postman.com/docs/use/send-requests/create-requests/parameters](https://learning.postman.com/docs/use/send-requests/create-requests/parameters)
