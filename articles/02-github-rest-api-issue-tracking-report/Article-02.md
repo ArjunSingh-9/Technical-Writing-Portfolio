@@ -118,7 +118,7 @@ The latest version of the request, including its Params table, should contain th
 - `direction=desc`
 - `per_page=10`
 
-![Postman request returning ten open GitHub issues and pull requests sorted by most recent update](assets/Git_Experiment3_Response.png)
+[![Postman request returning ten open GitHub issues and pull requests sorted by most recent update](assets/Git_Experiment3_Response.png)](assets/Git_Experiment3_Response.png)
 
 **Note:** The response can still contain both issues and pull requests. We’ll classify those records in the next stages of the workflow.
 
@@ -421,9 +421,7 @@ If a report value does not match the source response:
 
 The report is verified when every row matches its corresponding API record and the report preserves the intended ordering.
 
-At the time of testing, the generated report matched the live API response.
-
-The report is now verified against the API response.
+At the time of testing, the generated report matched the live API response. Hence, the report is now verified against the API response.
 
 The workflow covered retrieval, transformation, and validation of repository data.
 
@@ -477,5 +475,5 @@ These extensions build on the same underlying pattern: retrieving data, interpre
 
 ## Sources
 
-- GitHub Docs: REST API endpoints for issues — Used to verify the Issues endpoint, supported headers and query parameters, response behavior, and the Issue/Pull Request distinction.
+- [GitHub Docs: REST API endpoints for issues](https://docs.github.com/en/rest/issues?apiVersion=2026-03-10) — Used to verify the Issues endpoint, supported headers and query parameters, response behavior, and the Issue/Pull Request distinction.
 - The example report and response values shown in this article were produced from hands-on Postman testing of the `github/docs` repository. Because the repository is live, those observed records and timestamps can change over time.
