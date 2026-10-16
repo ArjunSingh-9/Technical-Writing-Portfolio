@@ -183,7 +183,7 @@ The ReqRes API returns a `400 Bad Request` response with this JSON body:
 }
 ```
 
-![Registration request without the password field returning 400 Bad Request](assets/ReqRes_Experiment2B_Response.png)
+[![Registration request without the password field returning 400 Bad Request](assets/ReqRes_Experiment2B_Response.png)](assets/ReqRes_Experiment2B_Response.png)
 
 The status code indicates that the request was treated as a client error, but it does not identify the specific cause by itself. The response body provides the additional clue.
 
@@ -254,7 +254,7 @@ The ReqRes API returns a `401 Unauthorized` response with this JSON body:
 }
 ```
 
-![Request without the required x-api-key header returning 401 Unauthorized](assets/ReqRes_Experiment3A_Response.png)
+[![Request without the required x-api-key header returning 401 Unauthorized](assets/ReqRes_Experiment3A_Response.png)](assets/ReqRes_Experiment3A_Response.png)
 
 The status code indicates that the request lacks valid authentication for this endpoint. The response body provides specific evidence: the `x-api-key` header is required.
 
@@ -341,7 +341,7 @@ The ReqRes API returns a `403 Forbidden` response with this JSON body:
 
 The response indicates that the supplied credential does not have sufficient permission for this write operation. 
 
-![Write request using a read-only public key returning 403 Forbidden](assets/ReqRes_Experiment4A_Response.png)
+[![Write request using a read-only public key returning 403 Forbidden](assets/ReqRes_Experiment4A_Response.png)](assets/ReqRes_Experiment4A_Response.png)
 
 The response body provides the specific evidence: the API key has read-only permissions.
 
@@ -411,7 +411,7 @@ The request returns a `200 OK` response containing the requested user:
 }
 ```
 
-![Known-good request for user ID 2 returning 200 OK](assets/ReqRes_Experiment5_Response.png)
+[![Known-good request for user ID 2 returning 200 OK](assets/ReqRes_Experiment5_Response.png)](assets/ReqRes_Experiment5_Response.png)
 
 The response confirms that the resource with ID `2` exists.
 
@@ -429,7 +429,7 @@ The rest of the request stays the same.
 
 The ReqRes API returns a `404 Not Found` response with an empty body.
 
-![Request for user ID 999999 returning 404 Not Found](assets/ReqRes_Experiment5A_Response.png)
+[![Request for user ID 999999 returning 404 Not Found](assets/ReqRes_Experiment5A_Response.png)](assets/ReqRes_Experiment5A_Response.png)
 
 *A response body does not always provide a useful explanation.* In this case, the controlled change and known-good baseline provide the stronger evidence instead.
 
@@ -583,8 +583,8 @@ Carry this habit into those investigations: **when an API request fails, investi
 
 This guide is based on the following sources and hands-on verification:
 
-- ReqRes API documentation — current documentation for API keys, project collections, the `X-Reqres-Env` header, and API request examples.
-- API Testing with Postman Using ReqRes — ReqRes guidance for testing API requests and authentication with Postman.
-- **Hands-on Postman experiments performed during Pass 5** — successful baseline requests and controlled 400, 401, 403, and 404 failures. The request examples, response bodies, and diagnostic comparisons shown in this guide were verified during those experiments.
+- [ReqRes API documentation](https://reqres.in/docs) — current documentation for API keys, project collections, the `X-Reqres-Env` header, and API request examples.
+- [API Testing with Postman Using ReqRes](https://reqres.in/blog/api-testing-with-postman) — ReqRes guidance for testing API requests and authentication with Postman.
+- **Hands-on ReqRes API experiments in Postman** — successful baseline requests and controlled 400, 401, 403, and 404 failures. The request examples, response bodies, and diagnostic comparisons shown in this guide were verified during those experiments.
 
 **Note:** The response bodies shown for the four controlled failures are empirical results from the verification runs. API behavior and documentation can change over time, so consult the current ReqRes documentation when reproducing the examples.
