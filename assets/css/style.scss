@@ -64,20 +64,20 @@ header p.maintained-by {
   }
 
   header h1.header {
-    font-size: clamp(25px, 5vh, 30px);
+    font-size: clamp(25px, 7vh, 30px);
     line-height: 1.18;
     margin-top: 0;
     margin-bottom: clamp(10px, 1.8vh, 16px);
   }
 
   header p.header {
-    font-size: clamp(14px, 2.8vh, 17px);
+    font-size: clamp(14px, 3.2vh, 17px);
     line-height: 1.5;
     margin-bottom: clamp(10px, 1.8vh, 15px);
   }
 
   header p.maintained-by {
-    font-size: clamp(13px, 2.4vh, 15px);
+    font-size: clamp(13px, 2.8vh, 15px);
     line-height: 1.5;
     margin-bottom: clamp(8px, 1.4vh, 12px);
   }
@@ -87,7 +87,7 @@ header p.maintained-by {
   }
 
   header .sidebar-attribution {
-    font-size: clamp(11px, 2vh, 12px);
+    font-size: clamp(11px, 2.5vh, 12px);
     line-height: 1.5;
     margin: clamp(10px, 1.6vh, 14px) 0 0;
   }
