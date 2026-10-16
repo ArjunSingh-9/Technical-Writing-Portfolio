@@ -242,5 +242,5 @@ Next, you can:
 
 ## References
 
-- Open-Meteo Forecast API documentation: [https://open-meteo.com/en/docs](https://open-meteo.com/en/docs)
-- Postman request parameters documentation: [https://learning.postman.com/docs/use/send-requests/create-requests/parameters](https://learning.postman.com/docs/use/send-requests/create-requests/parameters)
+- [Open-Meteo Forecast API documentation](https://open-meteo.com/en/docs)
+- [Postman request parameters documentation](https://learning.postman.com/docs/use/send-requests/create-requests/parameters)
