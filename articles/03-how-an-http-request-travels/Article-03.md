@@ -548,18 +548,18 @@ Once you can separate the destination, communication, protection, and HTTP messa
 
 ### Primary technical references
 
-- RFC 9110 — HTTP Semantics
-- RFC 9112 — HTTP/1.1
-- RFC 9114 — HTTP/3
-- RFC 3986 — Uniform Resource Identifier (URI): Generic Syntax
-- RFC 1034 — Domain Names: Concepts and Facilities
-- RFC 1035 — Domain Names: Implementation and Specification
-- RFC 9846 — The Transport Layer Security (TLS) Protocol Version 1.3
+- [RFC 9110](https://www.rfc-editor.org/info/rfc9110/) — HTTP Semantics
+- [RFC 9112](https://www.rfc-editor.org/info/rfc9112/) — HTTP/1.1
+- [RFC 9114](https://www.rfc-editor.org/info/rfc9114/) — HTTP/3
+- [RFC 3986](https://www.rfc-editor.org/info/rfc3986/) — Uniform Resource Identifier (URI): Generic Syntax
+- [RFC 1034](https://www.rfc-editor.org/info/rfc1034/) — Domain Names: Concepts and Facilities
+- [RFC 1035](https://www.rfc-editor.org/info/rfc1035/) — Domain Names: Implementation and Specification
+- [RFC 9846](https://www.rfc-editor.org/info/rfc9846/) — The Transport Layer Security (TLS) Protocol Version 1.3
 
 ### Tool and service references
 
-- curl documentation
-- httpbin — HTTP Request & Response Service
+- [curl documentation](https://curl.se/docs/)
+- httpbin ([https://httpbin.org/](https://httpbin.org/)) — HTTP Request & Response Service
 
 ### Hands-on verification
 
