@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "How an HTTP Request Travels—Follow One Exchange from Client to Server and Back"
+image: "https://arjunsingh-9.github.io/Technical-Writing-Portfolio/articles/03-how-an-http-request-travels/assets/HTTP_Exchange_process.png"
 ---
 
 # How an HTTP Request Travels—Follow One Exchange from Client to Server and Back
