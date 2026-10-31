@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Get and Verify an Hourly Weather Forecast with Postman"
+image: "https://arjunsingh-9.github.io/Technical-Writing-Portfolio/articles/01-get-and-verify-hourly-weather-forecast-with-postman/assets/OM_Experiment7_Response.png"
 ---
 
 # Get and Verify an Hourly Weather Forecast with Postman
