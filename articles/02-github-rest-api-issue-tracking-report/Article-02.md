@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "How to Build a Simple Issue-Tracking Report with the GitHub REST API"
+image: "https://arjunsingh-9.github.io/Technical-Writing-Portfolio/articles/02-github-rest-api-issue-tracking-report/assets/Git_Experiment3_Response.png"
 ---
 
 # How to Build a Simple Issue-Tracking Report with the GitHub REST API
