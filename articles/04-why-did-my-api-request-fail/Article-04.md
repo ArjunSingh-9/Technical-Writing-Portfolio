@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Why Did My API Request Fail? A Diagnostic Workflow for 400, 401, 403, and 404 Responses"
+image: "https://arjunsingh-9.github.io/Technical-Writing-Portfolio/articles/04-why-did-my-api-request-fail/assets/ReqRes_Experiment4A_Response.png"
 ---
 
 # Why Did My API Request Fail? A Diagnostic Workflow for 400, 401, 403, and 404 Responses
