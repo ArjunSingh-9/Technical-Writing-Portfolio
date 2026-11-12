@@ -5,7 +5,7 @@ title: Technical Writing Portfolio
 
 # Arjun
 
-### Technical Writer | API Documentation • Developer Content • Troubleshooting
+### Technical Writer | API Documentation • Developer Tutorials • Troubleshooting
 
 I write technical content that makes APIs, developer workflows, technical concepts, and troubleshooting processes easier to understand and use.
 
