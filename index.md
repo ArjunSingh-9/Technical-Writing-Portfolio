@@ -37,7 +37,7 @@ A conceptual explainer that follows one concrete HTTPS exchange and builds a men
 
 An evidence-based guide to diagnosing four common API status codes—400, 401, 403, and 404—through controlled failures, response evidence, targeted corrections, and verification.
 
-## About
+## About Me
 
 I’m a **Computer Science graduate** with professional experience in search quality evaluation, AI evaluation, research, and evidence-based information review.
 
